@@ -1,4 +1,3 @@
-import { AnimatedList } from "@/components/ui/list";
 import { AnimatedListDemo } from "./grid";
 import { TimelineDemo } from "./memory";
 import { TextRevealCardPreview } from "./reveal";
