@@ -35,7 +35,7 @@ let notifications = [
     },
     {
       name: "Midnight voicemail",
-      description: "“If you're not asleep yet... I miss you.”",
+      description: "“If you&apos;re not asleep yet... I miss you.”",
       time: "Yesterday",
       icon: "📼",
       color: "#D988B9",

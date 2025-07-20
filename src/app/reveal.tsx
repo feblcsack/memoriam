@@ -10,11 +10,11 @@ export function TextRevealCardPreview() {
   return (
     <div className="flex items-center justify-center mt-5">
       <TextRevealCard
-        text="We're not in the different path"
-        revealText="You're my path."
+        text="We&apos;re not in the different path"
+        revealText="You&apos;re my path."
       >
         <TextRevealCardTitle>
-        I'm sorry, but you are wrong
+        I&apos;m sorry, but you are wrong
         </TextRevealCardTitle>
         <TextRevealCardDescription>
           Slide to reveal
