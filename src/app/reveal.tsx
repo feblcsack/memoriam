@@ -1,0 +1,25 @@
+"use client";
+import React from "react";
+import {
+  TextRevealCard,
+  TextRevealCardDescription,
+  TextRevealCardTitle,
+} from "../components/ui/text-reveal-card";
+
+export function TextRevealCardPreview() {
+  return (
+    <div className="flex items-center justify-center mt-5">
+      <TextRevealCard
+        text="We're not in the different path"
+        revealText="You're my path."
+      >
+        <TextRevealCardTitle>
+        I'm sorry, but you are wrong
+        </TextRevealCardTitle>
+        <TextRevealCardDescription>
+          Slide to reveal
+        </TextRevealCardDescription>
+      </TextRevealCard>
+    </div>
+  );
+}
