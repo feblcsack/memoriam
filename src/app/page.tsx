@@ -1,4 +1,5 @@
 import { AnimatedListDemo } from "./grid";
+import Landing from "./landing";
 import { TimelineDemo } from "./memory";
 import { TextRevealCardPreview } from "./reveal";
 import { MusicAlert } from "@/components/MusicAlert";
@@ -11,6 +12,7 @@ export default function Home() {
       <MusicAlert />
       <MusicControllerBar />
       <div className="p-10 space-y-10">
+        <Landing/>
         <div className="flex flex-col lg:flex-row gap-6">
           <div className="w-full lg:w-1/2">
             <AnimatedListDemo />
