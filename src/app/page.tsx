@@ -1,6 +1,7 @@
 import { AnimatedListDemo } from "./grid";
 import Landing from "./landing";
 import { TimelineDemo } from "./memory";
+import Need from "./need";
 import { TextRevealCardPreview } from "./reveal";
 import { MusicAlert } from "@/components/MusicAlert";
 import { MusicControllerBar } from "@/components/MusicControllerBar";
@@ -22,6 +23,7 @@ export default function Home() {
           </div>
         </div>
         <TimelineDemo />
+        <Need/>
       </div>
     </MusicPlayerProvider>
   );
