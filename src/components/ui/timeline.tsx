@@ -47,7 +47,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           Our moments through years
         </h2>
         <p className={`${reenie.className} text-xl text-gray-500`}>
-          I love you, Avril. I am who I am because of you. You are every reason, every hope, and every dream I've ever had, and no matter what happens to us in the future, every day we are together is the greatest day of my life. I will always be yours. And, darl, you will always be mine. 
+          I love you, Avril. I am who I am because of you. You are every reason, every hope, and every dream I&rsquo;ve ever had, and no matter what happens to us in the future, every day we are together is the greatest day of my life. I will always be yours. And, darl, you will always be mine. 
         </p>
       </div>
 

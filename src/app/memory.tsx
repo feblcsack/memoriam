@@ -53,7 +53,7 @@ export function TimelineDemo() {
       content: (
         <div>
           <p className="mb-4 text-base font-normal text-neutral-800 md:text-lg dark:text-neutral-200">
-            Remember this night? i'd rather spend night like this with you rather than anything in this world
+            Remember this night? i&rsquo;d rather spend night like this with you rather than anything in this world
           </p>
           <div className="mb-8">
           </div>
