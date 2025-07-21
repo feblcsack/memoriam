@@ -20,6 +20,7 @@ export default function Home() {
           </div>
           <div className="w-full lg:w-1/2">
             <TextRevealCardPreview />
+            
           </div>
         </div>
         <TimelineDemo />
