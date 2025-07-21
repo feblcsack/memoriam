@@ -19,14 +19,14 @@ export function MusicAlert() {
     <AlertDialog open={open} onOpenChange={setOpen}>
       <AlertDialogContent>
         <AlertDialogHeader>
-          <AlertDialogTitle>Selamat Datang 👋</AlertDialogTitle>
+          <AlertDialogTitle>Hey...</AlertDialogTitle>
           <AlertDialogDescription>
-            Mau dengerin lagu sambil jelajahi halaman?
+            I have a very special song for you
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
-          <Button onClick={handlePlay}>Play Lagu</Button>
-          <AlertDialogCancel>Lewati</AlertDialogCancel>
+          <Button onClick={handlePlay}>Play</Button>
+          <AlertDialogCancel>Skip</AlertDialogCancel>
         </AlertDialogFooter>
       </AlertDialogContent>
     </AlertDialog>

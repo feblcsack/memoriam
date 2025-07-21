@@ -16,7 +16,7 @@ export function MusicControllerBar() {
         "bg-white dark:bg-zinc-900 shadow-lg rounded-full px-4 py-2 flex items-center gap-3 transition-all"
       )}
     >
-      <span className="text-sm font-medium">{isPlaying ? "Lagu sedang diputar" : "Lagu dijeda"}</span>
+      <span className="text-sm font-medium">{isPlaying ? "Play" : "Pause"}</span>
       <Button onClick={toggle} size="icon" variant="outline">
         {isPlaying ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4" />}
       </Button>
