@@ -12,42 +12,43 @@ interface Item {
 }
 
 let notifications = [
-    {
-      name: "Late night thoughts",
-      description: "You were a song I played on repeat, even when it hurt.",
-      time: "2:34 AM",
-      icon: "🌙",
-      color: "#8E7AB5",
-    },
-    {
-      name: "New memory unlocked",
-      description: "Your perfume still lingers in the hoodie I never returned.",
-      time: "Last night",
-      icon: "🧥",
-      color: "#C499F3",
-    },
-    {
-      name: "Eyes met",
-      description: "It wasn’t just a glance — it was a moment I still replay.",
-      time: "3 weeks ago",
-      icon: "👁️",
-      color: "#A267AC",
-    },
-    {
-      name: "Midnight voicemail",
-      description: "“If you&apos;re not asleep yet... I miss you.”",
-      time: "Yesterday",
-      icon: "📼",
-      color: "#D988B9",
-    },
-    {
-      name: "Heart typed but unsent",
-      description: "Typed 3 paragraphs. Deleted all. Still love you.",
-      time: "Just now",
-      icon: "📱",
-      color: "#9B5DE5",
-    },
-  ];
+  {
+    name: "Late night feels",
+    description: "U were on loop in my head like my fav sad jam. Still hits.",
+    time: "2:34 AM",
+    icon: "🌙",
+    color: "#8E7AB5",
+  },
+  {
+    name: "Nostalgia hit diff",
+    description: "Ur scent still chillin after that hug",
+    time: "Last night",
+    icon: "🧥",
+    color: "#C499F3",
+  },
+  {
+    name: "That look tho",
+    description: "One look. Whole movie played in my head. Still can't forget.",
+    time: "3 weeks ago",
+    icon: "👁️",
+    color: "#A267AC",
+  },
+  {
+    name: "Voicemail vibes",
+    description: "“Yo… u up? I miss u fr.”",
+    time: "Yesterday",
+    icon: "📼",
+    color: "#D988B9",
+  },
+  {
+    name: "Typed, cried, unsent",
+    description: "Wrote a whole essay. Backspaced it all. Love still loud.",
+    time: "Just now",
+    icon: "📱",
+    color: "#9B5DE5",
+  },
+];
+
   
 notifications = Array.from({ length: 10 }, () => notifications).flat();
 
