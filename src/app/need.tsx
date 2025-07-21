@@ -4,7 +4,7 @@ export default function Need() {
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
-    <div className="min-h-screen flex items-center justify-center px-4">
+    <div className="min-h-screen flex items-center justify-center px-8">
       <div className="text-center max-w-2xl mx-auto">
         {/* Main Title */}
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-light text-white mb-8 tracking-tight">
@@ -50,7 +50,7 @@ export default function Need() {
         </a>
 
         {/* Footer */}
-        <div className="mt-16 text-gray-500 text-sm">
+        <div className="mt-10 text-gray-500 text-sm">
           <p>Available for... everything — even your 3AM thoughts.</p>
         </div>
       </div>

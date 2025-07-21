@@ -1,6 +1,6 @@
 "use client";
 import { useEffect } from "react";
-import { motion, stagger, useAnimate } from "motion/react";
+import { motion, stagger, useAnimate, useInView } from "motion/react";
 import { cn } from "@/lib/utils";
 
 export const TextGenerateEffect = ({
@@ -15,20 +15,23 @@ export const TextGenerateEffect = ({
   duration?: number;
 }) => {
   const [scope, animate] = useAnimate();
+  const isInView = useInView(scope, { amount: 0.5, once: true }); // trigger when 50% in view
   const wordsArray = words.split(" ");
   useEffect(() => {
-    animate(
-      "span",
-      {
-        opacity: 1,
-        filter: filter ? "blur(0px)" : "none",
-      },
-      {
-        duration: duration ? duration : 1,
-        delay: stagger(0.2),
-      }
-    );
-  }, [scope.current]);
+    if (isInView) {
+      animate(
+        "span",
+        {
+          opacity: 1,
+          filter: filter ? "blur(0px)" : "none",
+        },
+        {
+          duration: duration,
+          delay: stagger(0.2),
+        }
+      );
+    }
+  }, [isInView]);
 
   const renderWords = () => {
     return (
