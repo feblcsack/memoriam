@@ -7,8 +7,8 @@ export function TimelineDemo() {
       title: "2022",
       content: (
         <div>
-          <p className="mb-8 text-3xl font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            Our first met
+          <p className="mb-8 text-base font-normal text-neutral-800 md:text-lg dark:text-neutral-200">
+            This is our first time when our paths crossed, and time suddenly felt softer
           </p>
           <div className="">
             <img
@@ -26,8 +26,8 @@ export function TimelineDemo() {
       title: "2023",
       content: (
         <div>
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-xl dark:text-neutral-200">
-            You look cute btw
+          <p className="mb-8 text-base font-normal text-neutral-800 md:text-lg dark:text-neutral-200">
+            This is my favorite picture of you....
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -52,8 +52,8 @@ export function TimelineDemo() {
       title: "2024",
       content: (
         <div>
-          <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-            One of my fav moment with you
+          <p className="mb-4 text-base font-normal text-neutral-800 md:text-lg dark:text-neutral-200">
+            Remember this night? i'd rather spend night like this with you rather than anything in this world
           </p>
           <div className="mb-8">
           </div>
@@ -94,8 +94,8 @@ export function TimelineDemo() {
         title: "2025",
         content: (
           <div>
-            <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-              Graduate!
+            <p className="mb-4 text-base font-normal text-neutral-800 md:text-lg dark:text-neutral-200">
+              And finally, we are graduate...
             </p>
             <div className="mb-8">
             </div>

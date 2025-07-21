@@ -5,6 +5,12 @@ import {
   motion,
 } from "motion/react";
 import React, { useEffect, useRef, useState } from "react";
+import { Reenie_Beanie } from "next/font/google";
+
+const reenie = Reenie_Beanie({
+  weight: "400",
+  subsets: ["latin"],
+});
 
 interface TimelineEntry {
   title: string;
@@ -37,11 +43,11 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       ref={containerRef}
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
+        <h2 className="text-xl md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
           Our moments through years
         </h2>
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          I love you, still
+        <p className={`${reenie.className} text-xl text-gray-500`}>
+          I love you, Avril. I am who I am because of you. You are every reason, every hope, and every dream I've ever had, and no matter what happens to us in the future, every day we are together is the greatest day of my life. I will always be yours. And, darl, you will always be mine. 
         </p>
       </div>
 
