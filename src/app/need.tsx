@@ -1,5 +1,6 @@
 "use client"
 
+import { Button } from "@/components/ui/button";
 import React, { useState } from "react";
 
 export default function Need() {
@@ -36,22 +37,25 @@ export default function Need() {
 
         {/* Buttons */}
         <div className="flex flex-col md:flex-row justify-center gap-4 mb-10">
-          <a
-            href={whatsappUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-green-600/25"
-          >
-            💬 Text Finn
-          </a>
+  <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+    <Button
+      variant="default"
+      className="backdrop-blur-md bg-gray-800/60 border border-white/10 text-white font-light text-lg px-8 py-6 rounded-full transition hover:scale-105 hover:text-gray-900 hover:shadow-lg hover:shadow-green-400/25"
 
-          <button
-            onClick={() => setShowJitsi(!showJitsi)}
-            className="inline-flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-600/25"
-          >
-            📹 Meet Me Now
-          </button>
-        </div>
+    >
+      💬 Text Finn
+    </Button>
+  </a>
+
+  <Button
+    onClick={() => setShowJitsi(!showJitsi)}
+    variant="default"
+    className="backdrop-blur-md bg-gray-800/60 border border-white/10 text-white font-light text-lg px-8 py-6 rounded-full transition hover:scale-105  hover:text-gray-900 hover:shadow-lg hover:shadow-green-400/25"
+
+  >
+    📹 Meet Me Now
+  </Button>
+</div>
 
         {/* Jitsi Meet Iframe */}
         {showJitsi && (
