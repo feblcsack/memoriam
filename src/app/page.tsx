@@ -6,6 +6,7 @@ import { TextRevealCardPreview } from "./reveal";
 import { MusicAlert } from "@/components/MusicAlert";
 import { MusicControllerBar } from "@/components/MusicControllerBar";
 import { MusicPlayerProvider } from "@/components/MusicPlayerProvider";
+import { AnimatedTestimonialsDemo } from "./testi";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
           </div>
         </div>
         <TimelineDemo />
+        <AnimatedTestimonialsDemo />
         <Need/>
       </div>
     </MusicPlayerProvider>
